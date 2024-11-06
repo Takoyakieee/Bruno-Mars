@@ -1,0 +1,78 @@
+
+package biographyofafamousperson;
+
+import java.util.Scanner;
+
+
+public class BiographyOfAFamousPerson {
+
+  
+    public static void main(String[] args) {
+              
+        Scanner scanner;
+        scanner = new Scanner (System.in);
+        
+        String name;
+        System.out.print("Enter the name of the Famous Person: ");
+        
+        name = scanner.nextLine();
+        System.out.println("Name: " + name);
+        
+        int year;
+        System.out.print("Enter their birth year: ");
+        
+        year = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Birth Year: " + year);
+      
+        String nation;
+        System.out.print("Enter their nationality: ");
+        
+        nation = scanner.nextLine();
+        System.out.println("Nationality: " + nation);
+        
+        String o;
+        System.out.print("Enter their Occupation: ");
+        
+        o = scanner.nextLine();
+        System.out.println("Occupation: " + o);
+        
+        String ach;
+        System.out.print("Enter a notable achievement or contribution:");
+        
+        ach = scanner.nextLine();
+        System.out.println("Achievement: " + ach);
+        
+        int age;
+        System.out.print("Enter the age they achieved their first major success:");
+        
+        age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Age at first major success: " + age);
+        
+        int won;
+        System.out.print("Enter the number of award the won:");
+        
+        won = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Award won: " + won);
+        
+        int net;
+        System.out.print("Enter their net worth in million: ");
+       
+        net = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Net worth: " + net);
+        
+        String quote;
+        System.out.print("Enter one of their famous quote:");
+        
+        quote = scanner.nextLine();
+        System.out.println("Famous Quote: " + quote);
+        
+        
+        
+              
+    }
+    
+}
